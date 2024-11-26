@@ -11,7 +11,7 @@ export default function Home() {
 		<>
 			<h1 className={'text-2xl flex items-center gap-x-2'}>
 				<BiWorld className={'w-6 h-6'} />
-				Hello World
+				Hello World!
 				<Button
 					onClick={async () => {
 						const authData = await pb
